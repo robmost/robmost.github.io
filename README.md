@@ -4,12 +4,20 @@ This repository contains the source code for my personal portfolio website, show
 
 ## Overview
 
-The website is a static, single-page portfolio built with HTML5 and CSS3. It highlights my professional experience, academic career, and key projects, including my work on cosmological simulations and data processing workflows.
+The website is a static, single-page portfolio built with HTML5, CSS3, and Vanilla JavaScript. It highlights my professional experience, academic career, and key projects, including my work on cosmological simulations and data processing workflows.
+
+## Features
+
+*   **Responsive Design:** A clean, two-column layout that adapts seamlessly to mobile devices.
+*   **Dark/Light Mode:** Built-in theme toggle with user preference persistence using `localStorage`.
+*   **Interactive UI:** Custom-styled tags, pulsing status badges for ongoing projects, and hover effects.
+*   **No Frameworks:** Built entirely from scratch without external CSS or JS frameworks for maximum performance and control.
 
 ## Tech Stack
 
 *   **HTML5:** Semantic structure and content.
-*   **CSS3:** Custom styling using CSS Grid, Flexbox, and CSS variables for theming. No external CSS frameworks were used.
+*   **CSS3:** Custom styling using CSS Grid, Flexbox, and CSS variables for theming.
+*   **JavaScript:** Vanilla JS for theme toggling and state management.
 *   **Assets:** Inline SVGs extracted and styled to match the site's theme.
 
 ## Project Structure
@@ -19,7 +27,9 @@ The website is a static, single-page portfolio built with HTML5 and CSS3. It hig
 ├── index.html          # Main portfolio page
 ├── css/
 │   └── styles.css      # Main stylesheet
-├── images/             # Profile picture and SVG icons
+├── js/
+│   └── main.js         # Interactive logic (theme toggle)
+├── images/             # Profile picture and other images
 └── docs/               # Downloadable assets (e.g., Resume PDF)
 ```
 
