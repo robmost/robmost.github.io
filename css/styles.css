@@ -410,6 +410,20 @@ p {
   margin: 0;
 }
 
+.sidebar-contact {
+  margin-top: 1rem;
+}
+
+.sidebar-contact .contact-text {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-contact .btn-primary {
+  margin-top: 0.5rem;
+}
+
 /* --- BUTTONS --- */
 .btn-primary {
   display: inline-block;
