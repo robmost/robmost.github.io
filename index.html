@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio of Robert Mostoghiu Paun, Data Scientist and Computational Astrophysicist."
+      content="Portfolio of Dr. Robert Adriel Mostoghiu Paun, Data Scientist and Computational Astrophysicist."
     />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./js/main.js" defer></script>
     <script>
       // Check for saved theme preference or system preference immediately to prevent flash of unstyled content (FOUC)
-      const savedTheme = localStorage.getItem("theme");
+      const savedTheme = localStorage.getItem("rmost-portfolio-theme");
       const systemPrefersDark = window.matchMedia(
         "(prefers-color-scheme: dark)",
       ).matches;
@@ -29,25 +29,25 @@
         <img
           src="./images/horus_rob.jpg"
           class="profile-img"
-          alt="Robert Mostoghiu Paun"
+          alt="Dr. Robert Adriel Mostoghiu Paun"
         />
 
         <div>
-          <h1>Robert Mostoghiu Paun</h1>
+          <h1>Dr. Robert Adriel Mostoghiu Paun</h1>
           <p class="subtitle">Data Scientist · Computational Astrophysicist</p>
         </div>
 
         <p class="bio-short">
-          Making sense of terabyte-scale simulations and complex models to solve
-          real problems.<br />
+          Building automated data pipelines and high-fidelity predictive models to make sense of terabyte-scale problems.<br />
           <span class="location-tag">Based in Melbourne, AU.</span>
         </p>
 
         <div class="skills">
           <span class="skill-tag">Python</span>
+          <span class="skill-tag">C/C++</span>
           <span class="skill-tag">SQL</span>
           <span class="skill-tag">Machine Learning</span>
-          <span class="skill-tag">Bayesian Inference</span>
+          <span class="skill-tag">AI Orchestration</span>
           <span class="skill-tag">Data Pipelines</span>
           <span class="skill-tag">HPC</span>
         </div>
@@ -153,7 +153,7 @@
             <h2>About</h2>
           </div>
           <p>
-            I am a data scientist and computational astrophysicist who builds
+            I am a PhD-qualified data scientist and computational astrophysicist who builds
             and analyses large-scale predictive models. My research has involved
             running high-resolution cosmological simulations to study
             alternative dark matter models, galaxy cluster physics, and
@@ -165,12 +165,14 @@
           </p>
           <p>
             I apply my background in numerical modelling and high-performance
-            computing (HPC) to broader data science problems. I manage
+            computing (HPC) to broader data science challenges. I manage
             end-to-end data pipelines, wrangle terabyte-scale datasets, and use
-            machine learning to find useful patterns. Whether I am optimising
-            legacy C code for supercomputers or setting up automated ETL
-            workflows in Python and SQL, I enjoy tackling tough quantitative
-            problems and making sure the data is reliable.
+            machine learning to find useful patterns. Lately, I've been focusing
+            heavily on AI orchestration—leveraging LLMs to automate complex data
+            workflows and turn months of manual engineering into a single day's work.
+            Whether I'm optimising legacy C/C++ code for supercomputers or setting up
+            automated ETL pipelines in Python and SQL, I enjoy tackling tough
+            quantitative problems and making sure the data is reliable.
           </p>
         </section>
 
@@ -188,7 +190,7 @@
               >
               <span class="item-meta">Jan 2022 — Present</span>
             </div>
-            <div class="item-subtitle">Swinburne University of Technology</div>
+            <div class="item-subtitle">ARC Centre for Dark Matter, Swinburne University</div>
 
             <div class="stat-grid">
               <div class="stat-box">
@@ -196,28 +198,60 @@
                 <span class="stat-label">Improvement in model accuracy</span>
               </div>
               <div class="stat-box">
-                <span class="stat-number">TB+</span>
-                <span class="stat-label">Scale of datasets processed</span>
+                <span class="stat-number">98%</span>
+                <span class="stat-label">Reduction in engineering cycle time</span>
               </div>
             </div>
 
             <ul class="item-bullets">
               <li>
-                Led international research projects to develop and validate
-                large-scale predictive models.
+                Led international projects to develop and validate large-scale predictive models.
               </li>
               <li>
-                Implemented a new simulation technique that corrected
-                computational errors.
+                Designed and deployed a scalable communication and data-sharing infrastructure for a 100-member international consortium, saving costs.
               </li>
               <li>
-                Built automated ETL pipelines in Python and SQL to process
-                multi-terabyte datasets.
+                Served on the evaluation committee for proposal allocations and co-managed the operation of a multi-million-dollar remote observing facility (KECK).
               </li>
               <li>
-                Shared weekly performance reports and data visualisations with
-                the team to keep everyone on the same page regarding technical
-                developments.
+                Engineered the SAGE Tree Converter, utilising AI orchestration to reduce manual 1–3 month engineering cycles to a single day.
+              </li>
+              <li>
+                Implemented custom GIZMO extensions in distributed HPC environments, achieving a 40% improvement in predictive model accuracy.
+              </li>
+              <li>
+                Architected end-to-end Python and SQL ETL pipelines to process terabyte-scale raw simulation data.
+              </li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-title">PhD Researcher</span>
+              <span class="item-meta">Sep 2016 — Nov 2020</span>
+            </div>
+            <div class="item-subtitle">Universidad Autónoma de Madrid</div>
+
+            <div class="stat-grid">
+              <div class="stat-box">
+                <span class="stat-number">TB+</span>
+                <span class="stat-label">Scale of datasets standardised</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">Multi-HPC</span>
+                <span class="stat-label">International facility integration</span>
+              </div>
+            </div>
+
+            <ul class="item-bullets">
+              <li>
+                Developed Python workflows leveraging NumPy/Pandas to integrate and standardise terabyte-scale HPC datasets across international facilities.
+              </li>
+              <li>
+                Conducted complex statistical benchmarking of modelling architectures to isolate physical signals from computational artefacts.
+              </li>
+              <li>
+                Communicated technical insights to diverse audiences via peer-reviewed publications and specialised conferences.
               </li>
             </ul>
           </div>
@@ -237,23 +271,21 @@
               >
             </div>
             <div class="project-tags">
+              <span class="skill-tag">Python</span>
               <span class="skill-tag">SQL</span>
-              <span class="skill-tag">Pandas</span>
-              <span class="skill-tag">ML</span>
+              <span class="skill-tag">ETL</span>
+              <span class="skill-tag">Machine Learning</span>
               <span class="skill-tag">Power BI</span>
             </div>
             <ul class="item-bullets">
               <li>
-                Built data processing workflows to handle multi-terabyte
-                datasets, speeding up execution and catching errors early.
+                Architected end-to-end Python and SQL ETL pipelines to transform and standardise terabyte-scale datasets for distributed HPC environments.
               </li>
               <li>
-                Trained machine learning models for classification and
-                regression tasks.
+                Applied advanced data science techniques, including A/B testing and feature engineering, to detect anomalies and separate genuine signals from computational noise.
               </li>
               <li>
-                Built interactive dashboards in Microsoft Power BI/Fabric to
-                make complex results easy to understand.
+                Developed interactive dashboards in Microsoft Power BI/Fabric to communicate complex predictive modelling results to non-technical stakeholders.
               </li>
             </ul>
           </div>
@@ -269,26 +301,21 @@
               </span>
             </div>
             <div class="project-tags">
-              <span class="skill-tag">C</span>
+              <span class="skill-tag">C/C++</span>
               <span class="skill-tag">Python</span>
-              <span class="skill-tag">Fortran</span>
               <span class="skill-tag">HPC</span>
+              <span class="skill-tag">Numerical Analysis</span>
               <span class="skill-tag">CI/CD</span>
             </div>
             <ul class="item-bullets">
               <li>
-                Implemented and actively maintain a novel physical model within
-                the GIZMO cosmological simulation codebase.
+                Engineered custom C/C++ extensions within the GIZMO computational framework (GIZMO-PBHEF) to model complex system dynamics in distributed HPC environments.
               </li>
               <li>
-                Continuously optimise a legacy C codebase to improve simulation
-                efficiency, integrating new C modules into the parallelised HPC
-                framework.
+                Developed and validated novel simulation techniques, achieving a 40% improvement in accuracy by identifying systemic errors across terabyte-scale predictive models.
               </li>
               <li>
-                Manage the full development lifecycle using CI/CD practices to
-                ensure custom, stable builds of the software are consistently
-                delivered.
+                Managed the full integration and deployment lifecycle using CI/CD practices to ensure stable, parallelised builds are consistently delivered.
               </li>
             </ul>
           </div>
@@ -305,22 +332,20 @@
             </div>
             <div class="project-tags">
               <span class="skill-tag">Python</span>
+              <span class="skill-tag">AI Orchestration</span>
               <span class="skill-tag">LLMs</span>
               <span class="skill-tag">CLI</span>
+              <span class="skill-tag">System Architecture</span>
             </div>
             <ul class="item-bullets">
               <li>
-                Building an AI-assisted tool to translate merger trees from
-                different N-body simulations into the SAGE model format.
+                Engineered an AI-assisted CLI framework leveraging foundational LLMs to autonomously convert complex hierarchical simulation outputs into standardised formats.
               </li>
               <li>
-                Created an interactive CLI tool powered by LLMs (Claude/Gemini)
-                that automatically figures out file structures and maps data
-                fields.
+                Implemented an adapter design pattern and persistent knowledge base logic to optimise token usage and ensure scalable interoperability.
               </li>
               <li>
-                Set up automated validation to drastically cut down data prep
-                time for galaxy formation research.
+                Transformed a manual 1–3 month engineering cycle into a single-day process, representing a 98% reduction in data processing time.
               </li>
             </ul>
           </div>
@@ -360,10 +385,40 @@
           </div>
         </section>
 
-        <!-- Education -->
+        <!-- Professional Development -->
         <section class="section">
           <div class="section-header">
             <span class="section-num">05.</span>
+            <h2>Professional Development</h2>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-title">Commercialisation Training Program for Medical Researchers</span>
+              <span class="item-meta">Sep 2025 – Dec 2025</span>
+            </div>
+            <div class="item-subtitle">AAMRI VIC</div>
+            <p class="item-desc">
+              Selected for a competitive program bridging computational astrophysics knowledge with digital health innovation. Cultivated expertise in industry-standard investor pitching and translating digital research into high-impact health solutions.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-title">Research Translation & Design Thinking</span>
+              <span class="item-meta">Jul 2025</span>
+            </div>
+            <div class="item-subtitle">IdeaSquare, CERN</div>
+            <p class="item-desc">
+              Selected for an intensive program focused on re-framing technical research for real-world applications through commercial literacy and visual storytelling. Developed capabilities in creative problem-solving and translating complex technical knowledge for non-specialised audiences.
+            </p>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+          <div class="section-header">
+            <span class="section-num">06.</span>
             <h2>Education</h2>
           </div>
 
@@ -376,6 +431,28 @@
             <p class="item-desc">
               Graduated Summa Cum Laude. Awarded Doctorate Honourable Mention in
               2022.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-title">MSc in Cosmology and Particle Physics</span>
+              <span class="item-meta">Jun 2016</span>
+            </div>
+            <div class="item-subtitle">Universidad Autónoma de Madrid</div>
+            <p class="item-desc">
+              Awarded general enrolment funding and academic stipend by the Spanish Ministry of Education.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-title">BSc in Physics</span>
+              <span class="item-meta">Jun 2015</span>
+            </div>
+            <div class="item-subtitle">Universidad Autónoma de Madrid</div>
+            <p class="item-desc">
+              Awarded general enrolment funding and academic stipend by the Spanish Ministry of Education.
             </p>
           </div>
         </section>

@@ -12,11 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentTheme = root.getAttribute("data-theme");
     if (currentTheme === "dark") {
       root.setAttribute("data-theme", "light");
-      localStorage.setItem("theme", "light");
+      localStorage.setItem("rmost-portfolio-theme", "light");
       themeText.textContent = "Dark Mode";
     } else {
       root.setAttribute("data-theme", "dark");
-      localStorage.setItem("theme", "dark");
+      localStorage.setItem("rmost-portfolio-theme", "dark");
       themeText.textContent = "Light Mode";
     }
   });
